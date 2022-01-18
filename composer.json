@@ -11,15 +11,14 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=7.2",
-        "mdanter/ecc": "^1.0"
+        "php": ">=7.2"
     },
     "autoload": {
         "psr-4": {
             "Rtgm\\": "src"
         },
         "files": ["src/overwrite.php"]
-        
+
     },
     "repositories": {
         "packagist": {
@@ -27,5 +26,5 @@
             "url": "https://mirrors.aliyun.com/composer/"
         }
     }
-    
+
 }
